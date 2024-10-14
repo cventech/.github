@@ -1,0 +1,8 @@
+{
+    "name": "Hello World Template",
+    "description": "Template for a lab",
+    "iconName": "octicon mark-github",
+    "filePatterns": [
+        "**\\.dart"
+    ]
+}
