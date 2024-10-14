@@ -2,3 +2,15 @@ name: Workflow Templates
 
 on:
   branches: [$default-branch]
+
+jobs:
+  hello_world:
+    name: Octo Hello
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo 'Hello World'
+
+      
+    
